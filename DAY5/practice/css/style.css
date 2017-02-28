@@ -11,7 +11,6 @@ body{
     margin: 0;
     min-height: 100vh;
     /*body요소에 배경이미지(leading 21px 패턴) 설정*/
-    background: url("../images/leading-21px.png");
     /*본문 디자인(상속)*/
     /*font: [두께][기울기][응용] size/행간 글꼴; 두께와 기울기는 옵션임*/
     font: 1.4rem/1.5 "Spoqa han Sans";
@@ -21,6 +20,11 @@ body{
     /*단위를 쓰지 않는 이유. CSS는 상속이라는 매커니즘을 사용하기 때문에 단위를 붙이면 버그가 발생한다*/
     letter-spacing: -0.02em;
     color: #333741;
+}
+
+body:hover{
+    background: url("../images/leading-21px.png");
+
 }
 
 
