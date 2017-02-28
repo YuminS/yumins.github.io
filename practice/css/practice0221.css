@@ -1,0 +1,70 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    margin: 0;
+    background: url("../images/leading-24.png");
+    font-size: 1.6rem;
+    font-family: "Spoqa Han Sans";
+    line-height: 1.5em;
+    letter-spacing: -0.015em;
+    color: #010101;
+}
+
+.container{
+    width: 800px;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(221,221,221,0.3);
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 1.5em;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+    margin-bottom: 2.4rem;
+    letter-spacing: -0.07em;
+    /*물어보기*/
+    /*font-weight: 300;*/
+}
+
+/*물어보기*/
+h1,h2,h3,h4{
+    font-weight: 300;
+    /*우선권*/
+}
+
+h1{
+    font-size: 6.102rem;
+    line-height: 7.2rem;
+}
+
+h2{
+    font-size: 4.882rem;
+    line-height: 4.8rem;
+}
+
+h3{
+    font-size: 3.906rem;
+    line-height: 4.8rem;
+}
+
+h4{
+    font-size: 3.125rem;
+    line-height: 4.8rem;
+}
+
+h5{
+    font-size: 2.5rem;
+    line-height: 2.4rem;
+}
+
+h6{
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
