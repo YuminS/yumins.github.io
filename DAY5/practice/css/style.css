@@ -141,9 +141,15 @@ img{
 .header{
     text-align: center;
     margin-top: 8.4rem;
+    /*padding-top: 8.4rem;*/
 }
 
 /*메인 컨테이너*/
 .section{
     padding-bottom: 2.1rem;
+}
+
+.footer{
+    margin-top: 2.1rem;
+    margin-bottom: 6.3rem;
 }
