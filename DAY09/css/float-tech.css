@@ -1,6 +1,6 @@
 /*float-tech.css*/
 
-:root {
+/*:root {
   --white: #ffffff;
   --beige: #f7dcd5;
   --light-tan: #fbf3e3;
@@ -14,7 +14,7 @@
   --pale-grey-three: #f2f6f5;
   --beige-three: #faebea;
   --light-tan-three: #fbf1e3;
-}
+}*/
 
 body{
     margin:0;
@@ -25,13 +25,16 @@ body{
 .icon-box{
     float: left;
     width: 25%;
-    height: 16.666666667vh;
+    /*height: 16.666666667vh;*/
+    height: 170px;
     background: #fff;
     text-align: center;
 }
 
 .icon-box img{
-    vertical-align: top;
+    margin-top: 40px;
+    /*-webkit-filter: seturate(10%);*/
+
 }
 
 /*.icon-box:nth-child(2n-1) {
